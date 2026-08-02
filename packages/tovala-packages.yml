@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry search + PyPI probe + github.com/tovala org listing
+note: Tovala publishes no first-party client libraries. npm search surfaced one
+  community (third-party) package that drives the Tovala Smart Oven through the
+  private api.tovala.com mobile-app API. PyPI has no tovala package (404). The
+  official GitHub org (github.com/tovala, 14 repos) hosts infrastructure forks
+  (ESP-IDF tooling, aws-mwaa-local-runner, embedded-postgres), not SDKs.
+packages:
+- language: javascript
+  registry: npm
+  name: homebridge-tovala
+  url: https://www.npmjs.com/package/homebridge-tovala
+  install: npm install homebridge-tovala
+  official: false
+  description: A homebridge plugin for controlling a Tovala Smart Oven (community,
+    by kylewhirl; repo github.com/kylewhirl/homebridge-tovala)

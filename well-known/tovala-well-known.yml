@@ -1,0 +1,47 @@
+generated: '2026-07-21'
+method: searched
+source: probed /.well-known/ paths on www.tovala.com and api.tovala.com
+note: www.tovala.com is a Next.js SPA whose router returns a soft-200 HTML shell for
+  any unknown path (confirmed against a nonexistent-path baseline), so 200s with
+  content-type text/html are recorded as not-present; no raw files were saved.
+  The provider DOES publish a real /llms.txt at the site root (see llms/).
+hosts:
+  - host: https://www.tovala.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        content_type: text/html
+        real: false
+        note: soft-200 SPA shell, not an RFC 9116 document
+      - path: /.well-known/openid-configuration
+        status: 200
+        content_type: text/html
+        real: false
+        note: soft-200 SPA shell
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        content_type: text/html
+        real: false
+        note: soft-200 SPA shell
+      - path: /.well-known/api-catalog
+        status: 200
+        content_type: text/html
+        real: false
+        note: soft-200 SPA shell
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        content_type: text/html
+        real: false
+        note: soft-200 SPA shell
+  - host: https://api.tovala.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404

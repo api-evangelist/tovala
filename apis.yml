@@ -1,7 +1,24 @@
 aid: tovala
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tovala.png
 name: Tovala
-description: Tovala is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tovala is a Chicago-based food-technology company that pairs a fresh
+  meal delivery service with its proprietary smart countertop ovens. Weekly rotating,
+  chef-crafted meals ship with QR codes that the Tovala Smart Oven (5-in-1) and Smart
+  Oven Pro (6-in-1 with steam) scan to cook automatically, eliminating shopping,
+  prepping, and cleanup. The company also offers GLP-1 balanced and high-protein
+  menus, flexible meal plans, and a consumer mobile app backed by its api.tovala.com
+  platform. Tovala is a Y Combinator portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/tovala/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,63 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Food
+- Meal Delivery
+- Smart Ovens
+- Kitchen Appliances
+- Internet of Things
+- Consumer
+- Food Technology
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tovala-domain-security.yml
+- type: Website
+  url: https://www.tovala.com
+- type: Blog
+  url: https://www.tovala.com/blog
+- type: Support
+  url: https://support.tovala.com
+- type: TermsOfService
+  url: https://my.tovala.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://my.tovala.com/legal/privacy-policy
+- type: SignUp
+  url: https://www.tovala.com/checkout/register
+- type: Login
+  url: https://my.tovala.com
+- type: Pricing
+  url: https://www.tovala.com/meal-plans
+- type: GitHubOrganization
+  url: https://github.com/tovala
+- type: Press
+  url: https://www.tovala.com/press
+- type: FAQ
+  url: https://www.tovala.com/faq
+- type: Careers
+  url: https://www.tovala.com/join-our-team
+- type: Twitter
+  url: https://twitter.com/tovalafood
+- type: Facebook
+  url: https://www.facebook.com/tovalafood
+- type: Instagram
+  url: https://www.instagram.com/tovalafood
+- type: YouTube
+  url: https://www.youtube.com/c/Tovala
+- type: LLMsTxt
+  url: llms/tovala-llms.txt
+- type: Packages
+  url: packages/tovala-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
