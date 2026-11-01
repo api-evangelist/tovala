@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tovala is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Tovala is a Chicago-based food-technology company that pairs a fresh meal delivery service with its proprietary smart countertop ovens. Weekly rotating, chef-crafted meals ship with QR codes that the Tovala Smart Oven (5-in-1) and Smart Oven Pro (6-in-1 with steam) scan to cook automatically, eliminating shopping, prepping, and cleanup. The company also offers GLP-1 balanced and high-protein menus, flexible meal plans, and a consumer mobile app backed by its api.tovala.com platform. Tovala is a Y Combinator portfolio company.
 
-Backed by: y-combinator
+**Areas:** Company · Food · Meal Delivery · Smart Ovens · Kitchen Appliances · IoT · Consumer · Food Technology
+
+## Tovala on APIs.io
+
+Everything profiled for Tovala is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tovala/](https://apis.io/providers/tovala/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tovala Domain Security](https://apis.io/security/tovala/tovala-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tovala.com)
+- [Pricing](https://www.tovala.com/meal-plans)
+- [Sign up](https://www.tovala.com/checkout/register)
+- [Support](https://support.tovala.com)
+- [Blog](https://www.tovala.com/blog)
+- [Terms of service](https://my.tovala.com/legal/terms-of-service)
+- [Privacy policy](https://my.tovala.com/legal/privacy-policy)
+- [GitHub](https://github.com/tovala)
+
+## API Evangelist rating
+
+**Kin Score 8.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tovala/](https://apis.io/providers/tovala/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tovala: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tovala/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
